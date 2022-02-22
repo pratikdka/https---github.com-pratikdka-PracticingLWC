@@ -1,0 +1,22 @@
+<template>
+<!-- // one way data binding
+<lightning-card title = "Name of the Card">
+<div class = "slds-p-around_medium"></div>
+<h1>
+    My name is {fullname}
+</h1>
+
+</lightning-card> -->
+
+<lightning-card title = "Two Way Data Binding">
+<div class = "slds-p-around_medium"></div>
+<lightning-input 
+type="text" 
+name="title"
+label="Enter your title"
+value={title}
+onkeyup={changeHandler}>
+</lightning-input>
+<h1>My title name is {title}</h1>
+</lightning-card>
+</template>

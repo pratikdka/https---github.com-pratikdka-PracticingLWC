@@ -1,0 +1,10 @@
+<template>
+<lightning-card title="TemplateforIfTrueCondt">
+    <button class = "slds-button slds-button_success"  onclick={showHandler}>
+        Click to show the hidden text
+    </button>
+    <template if:true={showtext}>
+    <h3> You are able to see the hidden texts</h3>
+    </template>
+</lightning-card>
+</template>

@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title = "Showing If:False Condition">
+        <button class = "slds-button slds-button_success" onclick={showHandler}>
+            Click on the button
+        </button>
+    <template if:false={texttoappear}>
+        <h2> Onclicking this button the texts you are currently reading will be made hidden</h2>
+    </template>
+    
+    </lightning-card>
+</template>

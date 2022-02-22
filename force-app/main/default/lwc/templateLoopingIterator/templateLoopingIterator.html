@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title = "Using Iterator Looping" icon-name="custom:custom2" style="border-radius:20px; text-align:center;">
+    <template iterator:student = {studentList} >
+    <div key={student.value.id}>
+        <a href="#"><strong>{student.value.Name} : </strong>{student.value.class}</a>
+    </div>
+</template>
+</lightning-card>
+</template>

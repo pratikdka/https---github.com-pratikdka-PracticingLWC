@@ -1,0 +1,12 @@
+<template>
+<lightning-card title="Toggle Template Demo">
+<button class = "slds-button slds-button_brand" onclick={toggleHandler}>
+Click on to toggle between the texts...
+</button>
+<template if:false={toggleText}>
+<h2>
+Let's play Hide and Seek !!!!
+</h2>
+</template>
+</lightning-card>
+</template>
