@@ -1,0 +1,13 @@
+
+.green{
+    background:rgb(64, 153, 64);
+}
+.red{
+    background:rgb(141, 60, 60);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+}

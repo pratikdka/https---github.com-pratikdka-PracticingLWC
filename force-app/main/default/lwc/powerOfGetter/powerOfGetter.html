@@ -1,5 +1,16 @@
 <template>
-    <lightning-card title = "Using Getter Method" icon-name="custom:custom20" style="text-align: center;">
-        <h1><strong>{getTitle}</strong></h1>
-    </lightning-card>
+<lightning-card title = "Using Getter Method" icon-name="custom:custom20" style="text-align: center;">
+<h1><strong>{getTitle}</strong></h1>
+<div>
+<button onclick={clickAction} > ON </button>
+<button onclick={clickAction} > OFF </button>
+</div>
+
+<div class="slds-m-around_medium">
+<div class={boxStatus}>
+
+</div>
+</div>
+
+</lightning-card>
 </template>
